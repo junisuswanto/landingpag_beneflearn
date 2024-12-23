@@ -1,0 +1,191 @@
+:root {
+  --bs-biru-color: #106ebe;
+  --bs-mint-color: #0ffcbe;
+  --bs-putih-color: #ffffff;
+  --bs-primary: var(--bs-biru-color);
+  --bs-warning: var(--bs-biru-color);
+  --bs-link-color: var(--bs-mint-color);
+  --bs-link-hover-color: var(--bs-putih-color);
+}
+
+/* #mainNav .navbar-nav .nav-item .nav-link {
+  color: var(--bs-putih-color);
+} */
+#mainNav {
+  background-color: var(--bs-biru-color);
+}
+
+@media (min-width: 992px) {
+  #mainNav.navbar-shrink {
+    background-color: var(--bs-biru-color);
+  }
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: var(--bs-mint-color);
+}
+
+header.masthead .masthead-subheading {
+  color: var(--bs-mint-color);
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  header.masthead .masthead-subheading {
+    font-size: 1.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+}
+
+header.masthead .masthead-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  header.masthead .masthead-heading {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+  }
+}
+
+header.masthead a:active,
+header.masthead a:hover,
+#submitButton:hover {
+  color: var(--bs-biru-color);
+}
+
+.modal .btn-primary:hover {
+  color: var(--bs-biru-color);
+  background-color: var(--bs-mint-color);
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--bs-mint-color);
+  --bs-btn-border-color: var(--bs-mint-color);
+  --bs-btn-hover-bg: var(--bs-putih-color);
+  --bs-btn-hover-border-color: var(--bs-putih-color);
+  --bs-btn-active-bg: var(--bs-putih-color);
+  --bs-btn-disabled-bg: var(--bs-mint-color);
+  --bs-btn-disabled-border-color: var(--bs-mint-color);
+}
+
+.custom-icon .fa-circle {
+  color: #009dffde;
+}
+
+#silabus .silabus-item {
+  max-width: 26rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+#silabus .silabus-item .silabus-link {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+#silabus .silabus-item .silabus-link .silabus-hover {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 200, 0, 0.9);
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity ease-in-out 0.25s;
+}
+#silabus .silabus-item .silabus-link .silabus-hover .silabus-hover-content {
+  font-size: 1.25rem;
+  color: white;
+}
+#silabus .silabus-item .silabus-link:hover .silabus-hover {
+  opacity: 1;
+}
+#silabus .silabus-item .silabus-caption {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #fff;
+}
+#silabus .silabus-item .silabus-caption .silabus-caption-heading {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  margin-bottom: 0;
+}
+#silabus .silabus-item .silabus-caption .silabus-caption-subheading {
+  font-style: italic;
+  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.silabus-modal .modal-dialog {
+  margin: 1rem;
+  max-width: 100vw;
+}
+.silabus-modal .modal-content {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+}
+.silabus-modal .modal-content h2,
+.silabus-modal .modal-content .h2 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+.silabus-modal .modal-content p.item-intro {
+  font-style: italic;
+  margin-bottom: 2rem;
+  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+.silabus-modal .modal-content p {
+  margin-bottom: 2rem;
+}
+.silabus-modal .modal-content ul.list-inline {
+  margin-bottom: 2rem;
+}
+.silabus-modal .modal-content img {
+  margin-bottom: 2rem;
+}
+.silabus-modal .close-modal {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+.silabus-modal .close-modal:hover {
+  opacity: 0.3;
+}
+
+.timeline-image {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  /* Pastikan elemen gambar terpotong mengikuti bentuk lingkaran */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.timeline-image .img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.timeline > li .timeline-image {
+  /* color: var(--bs-biru-color); */
+  background-color: var(--bs-biru-color);
+}
