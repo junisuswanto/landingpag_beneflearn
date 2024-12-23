@@ -8,9 +8,14 @@
   --bs-link-hover-color: var(--bs-putih-color);
 }
 
-/* #mainNav .navbar-nav .nav-item .nav-link {
-  color: var(--bs-putih-color);
-} */
+.navbar-toggler {
+  padding: 5px; /* Kurangi padding tombol jika terlihat terlalu besar */
+}
+
+.navbar-brand img {
+  vertical-align: middle; /* Pastikan logo selalu sejajar */
+}
+
 #mainNav {
   background-color: var(--bs-biru-color);
 }
