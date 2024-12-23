@@ -20,6 +20,7 @@ https://landingpage-beneflearn.web.app/
 
 - Pendaftaran kursus digital via Landing page
 - Live chat
+- SEO
 
 # Kendala yang dihadapi dan bagaimana solusi diterapkan
 
