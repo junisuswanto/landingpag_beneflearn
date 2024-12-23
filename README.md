@@ -26,3 +26,4 @@ https://landingpage-beneflearn.web.app/
 
 - Materi yang padat sehingga harus banyak waktu yang disediakan untuk mengerjakannya.
 - Secara keseuluruhan cukup fair juga karena contoh koding sudah disediakan, siswa tinggal merangkai logika saja. Sangat terbantu sekali.
+- Sudah menambahkan Live chat tawk.to di localhost sudah tampil, tapi di hosting firebase tidak tampil, deploy ulang. Solved.
